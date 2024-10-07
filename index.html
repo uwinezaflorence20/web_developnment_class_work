@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>exercises 1</title>
+</head>
+
+<body id="mine">
+    <button
+        onclick='document.getElementById("mine").style.background = "black"; document.getElementById("mine").style.color = "white";'>
+        <p>Change Background and color</p>
+    </button>
+
+    <!--------------EXERCISE 1---------------->
+
+    <H1>exercise 1</H1>
+    <p id="my_test_id"> put here some texts </p>
+    <button onclick='document.getElementById("my_test_id").innerHTML="THIS IS THE TIME TO SHOW UP"'> click me </button>
+
+    <div>
+
+     <!--------------EXERCISE 2---------------->    
+        <h1>Exercises 2</h1>
+    </div>
+    <div class="my" style="display: flex; align-items: center;"></div>
+    <a href="javascript:void(0)" onclick='document.getElementById("image").src="im1.jpg"' id="img_done"
+        style="margin-right: 20px;">
+        <img style="width: 200px;" id="image" src="im1.jpg"><br>Student 1
+    </a>
+
+    <a href="javascript:void(0)" onclick='document.getElementById("image").src="im2.jpg"'
+        style="margin-right: 20px;">Student 2</a>
+
+    <a href="javascript:void(0)" onclick='document.getElementById("image").src="im3.jpg"'>Student 3</a>
+
+    </div>
+
+
+     <!--------------EXERCISE 3---------------->
+    <h1> exercise 3</h1>
+    <p id="incr"> hey people</p>
+    <button onclick='document.getElementById("incr").style.fontSize="40px"'> increase </button>
+    <button onclick='document.getElementById("incr").style.fontSize="20px"'> decrease </button>
+
+
+    
+     <!--------------EXERCISE 4---------------->
+    <h1> Exercise 4</h1>
+    <button onclick="showAlert()">Click Me for an Alert</button>
+
+
+
+     <!--------------EXERCISE 5---------------->
+    <h1> exercises 5</h1>
+    <script>
+        function showAlert() {
+            alert("Hello! You clicked the button.");
+        }
+        var a;
+        var c;
+        var x = 10;
+        var y = 20;
+        var z = 40;
+        a = x - y;
+        c = y + z;
+
+        document.write("the differnt  is:  " + a);
+        document.write("the sum is: " + c);
+
+    </script>
+</body>
+
+</html>
